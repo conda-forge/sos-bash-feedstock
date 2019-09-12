@@ -21,7 +21,7 @@ requirements:
     - python >=3.6
   run:
     - sos-notebook >=0.19.4
-    - bash_kernel
+    - calysto_bash
     - python >=3.6
 
 test:
