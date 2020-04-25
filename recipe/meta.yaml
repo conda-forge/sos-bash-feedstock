@@ -1,13 +1,13 @@
 {% set name = "sos-bash" %}
-{% set version = "0.19.0" %}
+{% set version = "0.20.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b48d1a592e20d382698090cccfd2e10bd96374a139a182eda1084b2db947dc31
+  sha256: 3a2c6ded5732ef5e321874a112337ddbdba136a4a26fae90500955960fb0f8d8
 
 build:
   noarch: python
@@ -37,7 +37,7 @@ about:
   license: BSD
   license_family: BSD
   license_file: LICENSE
-  summary: "SoS language module for bash"
+  summary: SoS language module for bash
   doc_url: https://vatlab.github.io/sos-docs/
   dev_url: https://github.com/vatlab/sos-bash
 
