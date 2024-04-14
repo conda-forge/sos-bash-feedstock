@@ -34,8 +34,7 @@ test:
 
 about:
   home: https://github.com/vatlab/sos-bash
-  license: BSD
-  license_family: BSD
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: SoS language module for bash
   doc_url: https://vatlab.github.io/sos-docs/
