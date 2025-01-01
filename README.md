@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sos-bash-feedst
 
 Home: https://github.com/vatlab/sos-bash
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Summary: SoS language module for bash
 
