@@ -8,7 +8,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/sos-bash/sos-bash-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/s/sos-bash/sos-bash-${{ version }}.tar.gz
   sha256: 8b5b6aa4f2b992c742175084cacf3a562e4396b25b4727d227213c7df8a3c393
 
 build:
@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python =${{ python_min }}
+    - setuptools
   run:
     - sos-notebook >=0.19.4
     - calysto_bash
