@@ -35,6 +35,8 @@ tests:
       run:
         - pip
         - python =${{ python_min }}
+    script:
+      - pip check
 
 about:
   license: BSD-3-Clause
