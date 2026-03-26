@@ -1,18 +1,18 @@
 schema_version: 1
 
 context:
-  version: 0.21.0
+  version: "0.21.1"
 
 package:
   name: sos-bash
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/sos-bash/sos-bash-${{ version }}.tar.gz
-  sha256: 8b5b6aa4f2b992c742175084cacf3a562e4396b25b4727d227213c7df8a3c393
+  url: https://pypi.org/packages/source/s/sos-bash/sos_bash-${{ version }}.tar.gz
+  sha256: c8fe4680e1ca33c22b54888506833581884a0aa211977c12375fff16c77c1ca0
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
